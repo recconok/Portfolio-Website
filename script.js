@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 chatBox.appendChild(errorMessage);
             }
         } catch (error) {
-            console.error('Error fetching from Gemini API:', error);
+            console.error('Error fetching from Gem API:', error);
             chatBox.removeChild(typingIndicator);
             const errorMessage = document.createElement('div');
             errorMessage.classList.add('message', 'bot-message');
